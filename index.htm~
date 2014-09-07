@@ -6,6 +6,11 @@
 
 <meta name="keywords" content="华东交通大学日新网 迎新专题">
 <meta name="description" content="华东交通大学日新网">
+<link rel="shortcut icon" href="http://www.qianlong.com/favicon.ico" type="image/x-icon">
+<link rel="home" title="千龙首页" href="http://www.qianlong.com/">
+<link rel="help" title="帮助" href="http://support.qianlong.com/">
+<link rel="next" title="新闻中心" href="http://news.qianlong.com/">
+<link rel="search" title="搜索" href="http://search.qianlong.com/">
 <script type="text/javascript">
 <!--
 window.onerror=function(){return true;}
