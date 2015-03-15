@@ -144,7 +144,7 @@ li{
 	background: #a39a91;
 	opacity: 0.5;
 }
-.slide-image ul{
+.slide-image ul:hover{
 	opacity: 1;
 }
 .slide-image ul li{
