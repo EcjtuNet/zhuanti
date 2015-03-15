@@ -57,8 +57,10 @@
   </div>
   <script type="text/javascript">
     $(".slide-image ul li").hover(function(){
+    	console.log("hehe");
     	var src = "url('./images/"+$(this).attr("data")+"')";
-    	$(".slide-image-box").css("background",src);
+    	console.log(src);
+    	$(".slide-image-box").css("background-image",src);
     },function(){});  
   </script>
   </body>
