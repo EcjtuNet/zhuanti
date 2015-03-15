@@ -62,7 +62,9 @@
     	//console.log(src);
     	$(".slide-image-box").css("background-image",src);
     	$(".slide-image ul").css("opacity","1");
-    },function(){});  
+    },function(){
+    	$(".slide-image ul").css("opacity","0.5");
+    });  
   </script>
   </body>
 </html>

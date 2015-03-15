@@ -144,6 +144,9 @@ li{
 	background: #a39a91;
 	opacity: 0.5;
 }
+.slide-image ul{
+	opacity: 1;
+}
 .slide-image ul li{
 	width: 166px ;
 	height: 111px ;
