@@ -40,14 +40,14 @@
                <div class="word">现场图片</div>
           </div>
           <div class="slide-image-box">
-            <div class="big-image"><img width="901" height="309" src="./images/link-show-2.png"/></div>
+            <div class="big-image"></div>
             <div class="slide-image">
               <ul>
-                <li class="slide-image-1"></li>
-                <li class="slide-image-2"></li>
-                <li class="slide-image-3"></li>
-                <li class="slide-image-4"></li>
-                <li class="slide-image-5"></li>
+                <li class="slide-image-1" data="1.png"></li>
+                <li class="slide-image-2" data="2.png"></li>
+                <li class="slide-image-3" data="3.png"></li>
+                <li class="slide-image-4" data="4.png"></li>
+                <li class="slide-image-5" data="5.png"></li>
               </ul>
             </div>
           </div>
@@ -56,7 +56,10 @@
       <div class="footer">华东交通大学团委、学工处 [ 版权所有 交大日新 ] 赣ICP备05003322号 日新工作室 维护 </div>
   </div>
   <script type="text/javascript">
-    $(".slide-image ul li");
+    $(".slide-image ul li").hover(function(){
+    	var src = "url('./images/"+$(this).attr("data")+"')";
+    	$(".slide-image-box").css("background",src);
+    },function(){});  
   </script>
   </body>
 </html>
