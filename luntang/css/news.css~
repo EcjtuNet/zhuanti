@@ -142,7 +142,7 @@ li{
 	height: 135px;
 	padding-top: 13px;
 	background: #a39a91;
-	opacity: 0.8;
+	opacity: 0.3;
 }
 .slide-image ul li{
 	width: 166px ;
