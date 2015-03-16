@@ -1,90 +1,19 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-  <head>
-  <title>华东交大：在大数据“平原”上打造“高峰”</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link href="./css/news.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
-  <script src="js/slide.js" type="text/javascript"></script>
-  </head>
-  <body>
-  <div class="container">
-    <div class="row">
-  	<div class="header"></div>
-  	<div class="main">
-  		<div class="schedule">
-             <div class="title">
-               
-               <div class="word">精彩内容</div>
-             </div>
-  		   	<div class="imgbox">
-			<div class="image-box-list">
-			<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
-			<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
-			<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
-			<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
-			<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
-			<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
-			</div>
-			</div>
-  		</div>
-  		<div class="meeting">
-  		   <div class="title">
-  		   	   <div class="logo"></div>
-               <div class="word">会议要闻</div>
-             </div>
-             <div class="wrapper">
-             	  <div class="list">
-             	  <ul>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b1/info34481.htm " >李贻煌：加速推进大数据时代下的工业化和城镇化发展</a></li>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/af/info34479.htm" >华东交大党委书记万明在论坛上致辞：论道  求教  致用</a></li>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b6/info34486.htm " >华东交大成功举办大数据时代下新型工业化发展学术论坛</a></li>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
-             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
-             	  </ul>
-    			  </div>
-             </div>
-  		</div>
-  		<div class="clear"></div>
-  		<div class="schedule mtbox">
-  			<div class="m_title">
-  			<div class="logo"></div>
-  				<div class="word">媒体报道</div>
-  			</div>
-  			<div class="meiti">	
-  			</div>
-  		</div>
-  		<div class="meeting mtbox">
-  			<div class="title">
-  				<div class="news_logo"></div>
-  				<div class="word">视频新闻</div>
-  			</div>
-  			<div class="news"></div>
-  		</div>
-  		
-  	</div>
-  
-  	<div class="slidepics">
-  		<div class="title">
-               <div class="word">现场图片</div>
-          </div>
-          <div class="slide-image-box">
-            <div class="slide-image">
-              <ul>
-                <li class="slide-image-1" data="1.png"></li>
-                <li class="slide-image-2" data="2.png"></li>
-                <li class="slide-image-3" data="3.png"></li>
-                <li class="slide-image-4" data="4.png"></li>
-                <li class="slide-image-5" data="5.png"></li>
-              </ul>
-            </div>
-          </div>
-     	</div>
-      </div>
-      <div class="footer">华东交通大学团委、学工处 [ 版权所有 交大日新 ] 赣ICP备05003322号 日新工作室 维护 </div>
-  </div>
-  <script type="text/javascript">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Images</title>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<style type="text/css">
+* { margin:0;padding:0;}
+html,body { font:normal 500 14px/20px arial;font-weight:500;font-style:normal;}
+a, a:link, a:visited { text-decoration:none;color:blue;}
+a:hover, a:active { text-decoration:none;color:#F60;}
+ 
+.imgbox { width:400px;height:280px;border:1px #DDD solid;margin:20px auto;}
+.imgbox .image-box-list { display:none;}
+</style>
+<script type="text/javascript">
 ;(function($){
     $.fn.extend({
         'imgbox' : function(options){
@@ -179,6 +108,18 @@ jQuery(function($){
     $('div.imgbox').imgbox();
 });
 </script>
-  </script>
-  </body>
+</head>
+<body>
+<div class="imgbox">
+<div class="list">
+<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
+<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
+<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
+<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
+<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
+<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
+</div>
+</div>
+
+</body>
 </html>

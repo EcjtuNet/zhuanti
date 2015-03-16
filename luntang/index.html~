@@ -10,37 +10,66 @@
   <body>
   <div class="container">
     <div class="row">
-  	<div class="header"><img src="images/pic1.png" alt="大数据时代下的新型工业化发展论坛" /></div>
+  	<div class="header"><img src="images/sprite2.png" alt="大数据时代下的新型工业化发展论坛" /></div>
   	<div class="main">
   		<div class="schedule">
              <div class="title">
-               <div class="word">日程安排</div>
+               
+               <div class="word">精彩内容</div>
              </div>
-  		   <a href="#" title="日程安排"></a>
+  		   	<div class="imgbox">
+			<div class="image-box-list">
+			<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
+			<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
+			<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
+			<a href="#baidu" title="baidu"><img src="images/1.png" border="0" /></a>
+			<a href="#Google" title="Google"><img src="images/2.png" border="0" /></a>
+			<a href="#163" title="163"><img src="images/3.png" border="0" /></a>
+			</div>
+			</div>
   		</div>
   		<div class="meeting">
   		   <div class="title">
+  		   	   <div class="logo"></div>
                <div class="word">会议要闻</div>
              </div>
              <div class="wrapper">
-             	  <a class="pic" href="#" title="会议要闻"></a>
              	  <div class="list">
              	  <ul>
-             	  	<li><i><img src="images/ex_dot.png"></i><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b1/info34481.htm " >李贻煌：加速推进大数据时代下的工业化和城镇化发展</a></li>
-             	  	<li><i><img src="images/ex_dot.png"></i><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/af/info34479.htm" >华东交大党委书记万明在论坛上致辞：论道  求教  致用</a></li>
-             	  	<li><i><img src="images/ex_dot.png"></i><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b6/info34486.htm " >华东交大成功举办大数据时代下新型工业化发展学术论坛</a></li>
-             	  	<li><i><img src="images/ex_dot.png"></i><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b1/info34481.htm " >李贻煌：加速推进大数据时代下的工业化和城镇化发展</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/af/info34479.htm" >华东交大党委书记万明在论坛上致辞：论道  求教  致用</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/b6/info34486.htm " >华东交大成功举办大数据时代下新型工业化发展学术论坛</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
+             	  	<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/86/a9/info34473.htm" >【综合报道】华东交大：在大数据“平原”上打造“高峰”</a></li>
              	  </ul>
     			  </div>
              </div>
   		</div>
+  		<div class="clear"></div>
+  		<div class="schedule mtbox">
+  			<div class="m_title">
+  			<div class="logo"></div>
+  				<div class="word">媒体报道</div>
+  			</div>
+  			<div class="meiti">	
+  			</div>
+  		</div>
+  		<div class="meeting mtbox">
+  			<div class="title">
+  				<div class="news_logo"></div>
+  				<div class="word">视频新闻</div>
+  			</div>
+  			<div class="news"></div>
+  		</div>
+  		
   	</div>
+  
   	<div class="slidepics">
   		<div class="title">
                <div class="word">现场图片</div>
           </div>
           <div class="slide-image-box">
-            <div class="big-image"></div>
             <div class="slide-image">
               <ul>
                 <li class="slide-image-1" data="1.png"></li>
@@ -56,15 +85,100 @@
       <div class="footer">华东交通大学团委、学工处 [ 版权所有 交大日新 ] 赣ICP备05003322号 日新工作室 维护 </div>
   </div>
   <script type="text/javascript">
-    $(".slide-image ul li").hover(function(){
-    	//console.log("hehe");
-    	var src = "url('./images/"+$(this).attr("data")+"')";
-    	//console.log(src);
-    	$(".slide-image-box").css("background-image",src);
-    	$(".slide-image ul").css("opacity","1");
-    },function(){
-    	$(".slide-image ul").css("opacity","0.5");
-    });  
+;(function($){
+    $.fn.extend({
+        'imgbox' : function(options){
+            var defaultSetting = {
+                'changeTime' : 5
+            };
+            options = $.extend(defaultSetting,options||{})
+            return this.each(function(){
+                var $obj = $(this);
+                $obj.css('position','relative');
+                var $list = $('div.image-box-list',$obj).find('a');
+                var t = 3;
+                var len = $list.length;
+                var i = len;
+                var w = parseInt($obj.css('width'));
+                var h = parseInt($obj.css('height'))-30;
+                show_imgbox();
+                var tid = window.setInterval(function(){
+                    show_imgbox();
+                },t*1000);
+                function show_imgbox(){
+                    i += 1;
+                    if(i>=len) i = 0;
+                    var $img = $($list[i]);
+                    var title = $img.attr('title');
+                    var url = $img.attr('href');
+                    var src = $img.find('img').attr('src');
+                    var $panel = $('div.imgbox_panel',$obj);
+                    if($panel.length==0){
+                        $panel = $('<div><a href="#"><img src="" border="0" /></a><p style="height:30px;line-height:30px;text-align:center;margin:0 auto;background:#EEE;position:absolute;"><a href="#" style="font-weight:700;">loading...</a></p></div>').attr('class','imgbox_panel');
+                        $panel.find('p').css({
+                            'width' : w+'px',
+                            'left' : '0px',
+                            'top' : h+'px'
+                        });
+                        $panel.find('img').css({
+                            'width' : w+'px',
+                            'height' : h+'px',
+                            'border' : 0
+                        }).attr('width',w+'px').attr('height',h+'px');
+                        $obj.append($panel);
+                        $panel.mouseover(function(e){
+                            window.clearInterval(tid);
+                        }).mouseout(function(e){
+                            tid = window.setInterval(function(){
+                                show_imgbox();
+                            },t*1000);
+                        });
+                    }
+                    $panel.find('img').attr('src',src);
+                    $panel.find('a').attr('href',url).attr('title',title);
+                    $panel.find('a:last').html(title);
+                    var $u = $('ul.imgbox_num',$obj);
+                    if($u.length==0){
+                        $u = $('<ul style="display:block;list-style-type:none;overflow:hidden;zoom:1;position:absolute;left:0;top:0;visibility:hidden;text-align:left;padding:0;margin:0;" />').attr('class','imgbox_num').css('width',len*29+'px');
+                        for(var i2 = 1;i2<=len;i2++){
+                            $('<li style="display:block;width:20px;height:20px;line-height:20px;text-align:center;vertical-align:middle;float:left;margin:0 3px;border:1px #777 solid;font-weight:700;color:#000;cursor:pointer;" />').html(i2).appendTo($u);
+                        }
+                        $u.css({
+                            'left' : (w-$u.width()-5)+'px',
+                            'top' : (h-$u.height()-$panel.find('p').height()-0)+'px',
+                            'visibility' : 'visible'
+                        });
+                        $obj.append($u);
+                        $u.find('li').mouseover(function(e){
+                            window.clearInterval(tid);
+                            i = parseInt($(this).html()) - 2;
+                            if(i<0) i = len;
+                            show_imgbox();
+                        }).mouseout(function(e){
+                            tid = window.setInterval(function(){
+                                show_imgbox();
+                            },t*1000);
+                        });
+                    }
+                    var $uli = $u.find('li');
+                    $uli.css({
+                        'border' : '1px #777 solid',
+                        'color' : '#000'
+                    });
+                    $($uli[i]).css({
+                        'border' : '1px #F60 solid',
+                        'color' : '#f60'
+                    });
+                }
+            });
+        }
+    });
+     
+})(jQuery);
+jQuery(function($){
+    $('div.imgbox').imgbox();
+});
+</script>
   </script>
   </body>
 </html>
