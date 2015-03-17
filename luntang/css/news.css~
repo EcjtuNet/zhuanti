@@ -55,6 +55,7 @@ li{
 	float: left;
 	margin-left: 22px;
 	width: 524px; 
+	height:342px;
 	border:1px #DDD solid;
 }
 .meeting .title{
@@ -163,7 +164,7 @@ li{
 }
 
 .slide-image ul{
-	margin-left:10px;
+	margin-top:10px;
 	height: 135px;
 	padding-top: 13px;
 	background: #FFF;
@@ -210,6 +211,20 @@ li{
 	font-weight: 200;
 	
 }
+.schedule ul li{
+	margin-top:15px;
+	margin-left:5px;
+}
+.news ul li{
+	margin-top:15px;
+}
+.news ul li a{
+	margin-left:5px;
+}
+.schedule ul li a{
+
+ margin-left:5px;
+}
 .schedule .m_title .logo{
 	margin-left:10px;
 	width:24px;
@@ -241,3 +256,60 @@ li{
 	line-height: 87px;
 	margin-top: 65px;
 }
+
+
+/* CSS Document */
+*{margin:0;padding:0;}
+ul,ol{list-style:none outside;}
+img{border:0 none;vertical-align:top;}
+
+a:link, a:visited{text-decoration:none;}
+a:hover, a:focus, a:active{text-decoration:underline;}
+a:focus, a:active{outline:none;}
+.lft{float:left;display:inline;}
+.rgt{float:right;display:inline;}
+.clearfix:after{visibility:hidden;display:block;font-size:1px;content:" ";clear:both;height:0;}
+*html .clearfix{zoom:1;} /* IE6 */
+*:first-child+html .clearfix{zoom:1;}
+.layout{padding:0 0 0 40px;}
+.layout  h2{margin:20px 0 20px 0;font-size:14px;}
+/*-------- 淡隐淡现选项卡 --------*/
+.row2{border:1px solid #E1E1E1;position:relative;width:300px;}
+.row2 .JQ-slide{background:url(images/side_bg1.jpg) no-repeat center top;}
+.row2 .JQ-slide-nav{float:none;overflow:hidden;zoom:1;padding:15px;}
+.row2 .JQ-slide-nav li{float:left;display:inline;background:url(images/slide_navbg.gif) no-repeat -70px 0;width:69px;height:23px;text-align:center;color:6b6b6b;font-weight:bold;text-align:center;line-height:22px;cursor:pointer;margin-right:5px;}
+.row2 .JQ-slide-nav li.on{background-position:0 0;color:white;}
+.row2 .JQ-slide-nav li.on a:link, .row2 .JQ-slide-nav li.on a:visited, .row2 .JQ-slide-nav li.on a:hover, .row2 .JQ-slide-nav li.on a:active{color:white;}
+.row2 .JQ-slide-content{position:relative;overflow:hidden;width:300px;height:120px;}
+.row2 .JQ-slide-content .newsList{position:absolute;top:0;left:0;background:white;}
+/*----------- 图片banner特效左右滚动 ------------*/
+/* w_ctr */
+.w_ctr .JQ-slide{width:305px;height:190px;overflow:hidden;position:relative;}
+.w_ctr .JQ-slide-content{position:absolute;}/*必须要的元素*/
+.w_ctr .JQ-slide-content li{width:305px;height:190px;float:left;display:inline;position:relative;}
+.w_ctr .JQ-slide-content li img{width:305px;height:190px;}
+.w_ctr .JQ-slide-content li span{display:block;background:black;color:white;font-size:14px;font-weight:bold;padding:0 14px;line-height:28px;position:absolute;bottom:5px;left:0;z-index:10;width:275px;overflow:hidden;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5;}
+.w_ctr .JQ-slide-nav{position:absolute;bottom:14px;right:8px;z-index:30;}
+.w_ctr .JQ-slide-nav li{float:left;display:inline;background:url(images/focus_li.png) no-repeat;width:10px;height:10px;text-indent:-999em;overflow:hidden;cursor:pointer;margin-right:5px;}
+.w_ctr .JQ-slide-nav li.on{background-position:-15px 0;}
+/*------ 图片左右滚动 ---------*/
+/* hot picture */
+.hotPic{margin:0 0 0 40px;}
+.hotPic .JQ-slide{position:relative;width:810px;height:142px;margin:0 0 15px 0;background:#f9f9f9;padding:10px 35px;}
+.hotPic .JQ-slide .wrap{width:810px;height:142px;overflow:hidden;position:relative;}
+.hotPic .JQ-slide-content{position:absolute;}/*必须要的元素*/
+.hotPic .imgList li{width:152px;margin:0 5px;}
+.hotPic .imgList img{width:140px;height:100px;}
+.hotPic .imgList .txt{height:30px;line-height:30px;}
+.hotPic .JQ-slide-nav a{display:block;z-index:99;width:48px;height:48px;overflow:hidden;text-indent:-999em;text-decoration:none;position:absolute;top:40px;background:url(../images/sprite.png) no-repeat;}
+.hotPic .JQ-slide-nav a.prev{left:-20px;background-position:-974px 0;}
+.hotPic .JQ-slide-nav a.next{right:-20px;background-position:-50px 0;}
+.hotPic .JQ-slide-nav a.next:hover{background-position:-150px 0;}
+/* imgList */
+.imgList{float:none;overflow:hidden;zoom:1}
+.imgList li{float:left;display:inline;overflow:hidden;}
+.imgList li a{display:block;}
+.imgList li .img{border:1px solid #d8d8d8;padding:5px;}
+.imgList li a.img:hover{border-color:#b70000;}
+.imgList li .txt{text-align:center;overflow:hidden;}
+
