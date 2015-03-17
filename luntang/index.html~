@@ -81,10 +81,7 @@ $(function (){
   				<div class="word">视频新闻</div>
   			</div>
   			<div class="news">
-  				<ul>
-             	  	<li><a href="http://xw.ecjtu.jx.cn/s/25/t/3/87/19/info34585.htm" >【江西五套】大数据时代：有权的、有钱的都别任性</a></li>
-             	  	<li><a href="http://xw.ecjtu.jx.cn/s/25/t/3/86/f8/info34552.htm" >【江西卫视】中国新型工业化和城镇化发展年会在南昌举行</a></li>
-             	  </ul>
+  				<embed height="250" width="524" src="http://xw.ecjtu.jx.cn/control/flvplayer/vcastr22.swf?vcastr_file=/picture/article/25/27/e3/c7803d2149b8aaa1974bc463bb28/35fed348-fcae-4cf2-9ab3-8a95b899165f.flv&amp;IsAutoPlay=1&amp;IsContinue=1" type="application/x-shockwave-flash" allowfullscreen="true" quality="high" imgurl="/control/flvplayer/default.jpg" play="true" loop="true" menu="true">
   			</div>
   		</div>
   		
@@ -112,7 +109,7 @@ $(function (){
 						<a href="#" class="txt"></a>
 					</li>
 					<li>
-						<a href="#" class="img"><img src="images/66.jpg" width="140" height="100" alt=""></a>
+						<a href="#" class="img"><img src="images/16.jpg" width="140" height="100" alt=""></a>
 						<a href="#" class="txt"></a>
 					</li>
 					<li>
