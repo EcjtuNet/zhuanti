@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://www.qianlong.com/weatheriframe.htm -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=gb2312"> 
+<TITLE>千龙网</TITLE> 
+<META name="keywords" content="新闻,时事报道,北京报道,北京政务,十八区县,奥运,时政,评论,文化,教育,专题,论坛,图片,军事,奇闻,娱乐,女性,体育,汽车,财富,旅游,视频,直播,商业,传媒,原创,博客,科技,房产,读书,健康,网址搜索,旅游搜索,北京搜索"> 
+<META name="description" content="北京门户——北京地区唯一重点新闻、资讯网站。千龙网成立于2000年3月，是国务院新闻办公室批准的国内第一家拥有新闻发布权的重点新闻网站,由中共北京市委宣传部主管,股东媒体是北京青年报、北京电视台、北京日报集团、北京人民广播电台、北京晨报。千龙网整合北京地区媒体资源,总揽首都发展建设全局,以专注态度和专业精神,向广大网民及时发布真实准确的北京地区新闻报道,提供迅捷实用的生活资讯,政务信息。生活在北京、关心北京的网民正在形成“看北京，上千龙”的阅读习惯"> 
+<LINK href="/favicon.ico" rel="shortcut icon" type="image/x-icon"> <LINK title="千龙首页" 
+href="http://www.qianlong.com/" rel="home"> <LINK title="帮助" href="http://support.qianlong.com/" 
+rel="help"> <LINK title="新闻中心" href="http://news.qianlong.com/" rel="next"> 
+<LINK title="搜索" href="http://search.qianlong.com/" rel="search"> 
+<STYLE type="text/css">
+html {
+	overflow-y:scroll;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	font-size:12px;
+	font-style:normal;
+	color:#000000;
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-family: "\5B8B\4F53","Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 180%;
+	background:#FFFFFF url(http://www.qianlong.com/img/v701.jpg) repeat-x left -52px;
+
+}
+
+/* ! this Custom CSS Selectors ! */
+.weihao {width:80px; position:absolute; left:1px; top:0;}
+.weihao a:link,
+.weihao a:visited,
+.weihao a:hover,
+.weihao a:active {color:#840000; text-decoration:none;}
+
+.weather {width:160px; position:absolute; left:81px; top:-2px; +top:-3px; _top:-2px;}
+</STYLE>
+ <!--[if IE 8]>
+<style type="text/css">
+.weather {width:160px; position:absolute; left:80px; top:-3px;}
+</style>
+<![endif]--> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16663"></HEAD> 
+<BODY>
+<DIV class="weihao"><A href="http://www.bjjtgl.gov.cn/publish/portal0/"><SPAN 
+class="todaynum" id="todaynum"></SPAN></A></DIV>
+<SCRIPT type="text/javascript">
+	var datelocalssi="Thursday March 12 2015";
+	function getXHNumber(tDate,sDate){
+		var nDayNum = tDate.getDay() == 0 ? 7 : tDate.getDay();
+		if(nDayNum>5) return nDayNum;
+		var nDiff = (tDate - sDate)/1000/3600/24/7/13;
+		nDiff = Math.floor(nDiff) % 5;
+		nDayNum = 5 - nDiff + nDayNum ;
+		if(nDayNum>5) nDayNum -= 5;
+		return nDayNum;	
+	}
+	var sStartDate = '2014-04-14';//开始星期，周一的日期
+	var x0 = '节假日不限行';
+	var x1 = '尾号5和0限行';   //11.12 5和0
+	var x2 = '尾号1和6限行';   //11.13 1和6
+	var x3 = '尾号2和7限行';   //11.14 2和7
+	var x4 = '尾号3和8限行';   //11.10 3和8
+	var x5 = '尾号4和9限行';   //11.11 4和9
+	var x6 = '周末不限行';  //11.15 不限行
+	var x7 = '周末不限行';  //11.16 不限行	
+	var arr1 = sStartDate.split("-");
+	var vStartDate = new Date(arr1[0],arr1[1]-1,arr1[2]);
+	var vToday = new Date(datelocalssi);
+	var nTodayNum = getXHNumber(vToday,vStartDate);
+	vTodayStr = vToday.getFullYear()+'-'+ (vToday.getMonth()+1) +'-'+ vToday.getDate();
+	if(vTodayStr == '2015-2-18' || vTodayStr == '2015-2-19' || vTodayStr == '2015-2-20' ||  vTodayStr == '2015-2-21' ||  vTodayStr == '2015-2-22' || vTodayStr == '2015-2-23' || vTodayStr == '2015-2-24' || vTodayStr == '2015-4-06' || vTodayStr == '2015-5-01')
+		nTodayNum = 0;
+	document.getElementById("todaynum").innerHTML = eval('x'+nTodayNum);
+</SCRIPT>
+ 
+<DIV class="weather">
+<SCRIPT src="weatheriframe_files/30276.js" type="text/javascript"></SCRIPT>
+</DIV></BODY></HTML>
