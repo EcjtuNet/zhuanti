@@ -64,7 +64,7 @@ img{
 	height: 20px;
 	width: 150px;
 	z-index: 2;
-	bottom: 20px;
+	bottom: 30px;
 	left: 100px;
 }
 #buttons span { 
@@ -91,7 +91,7 @@ img{
 
 #content .box{
 	width:300px;
-	height:260px;
+	height:270px;
 	position:relative;
 	overflow:hidden;
 }
@@ -99,7 +99,7 @@ img{
 	width:300px;
 	height:auto;
 	overflow:hidden;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 .title .world{
 	color:red;
