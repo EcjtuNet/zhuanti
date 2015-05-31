@@ -29,10 +29,10 @@
                     else {
                         list.style.left = left + 'px';
                         if(left>-100){
-                            list.style.left = -280 * len + 'px';
+                            list.style.left = -300 * len + 'px';
                         }
-                        if(left<(-280 * len)) {
-                            list.style.left = '-280px';
+                        if(left<(-300 * len)) {
+                            list.style.left = '-300px';
                         }
                         animated = false;
                     }
@@ -70,7 +70,7 @@
                 else {
                     index += 1;
                 }
-                animate(-280);
+                animate(-300);
                 showButton();
             }
             prev.onclick = function () {
@@ -83,7 +83,7 @@
                 else {
                     index -= 1;
                 }
-                animate(280);
+                animate(300);
                 showButton();
             }
 
@@ -96,7 +96,7 @@
                         return;
                     }
                     var myIndex = parseInt(this.getAttribute('index'));
-                    var offset = -280 * (myIndex - index);
+                    var offset = -300 * (myIndex - index);
 
                     animate(offset);
                     index = myIndex;

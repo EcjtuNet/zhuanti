@@ -2,42 +2,53 @@
 	padding:0;
 	margin:0;
 }
+img{
+	border:0;
+}
 #main{
-	width:1000px;
+	width:1020px;
 	height:600px;
 	margin:0 auto;
 }
 #header{
-	width:1000px;
+	width:1020px;
 	height:180px;
 	margin:0 auto;
 }
 #header img{
-	width:980px;
-	height:180px;
+	width:1020px;
+	height:190px;
 }
 #content{
-	width:980px;
-	height:500px;
+	width:1000px;
+	height:560px;
 	margin:10px auto;
 }
 #content ol{
-	width:980px;
+	width:1000px;
 	height:auto;
 	overflow:hidden;
 }
 #content ol li{
-	width:280px;
-	height:230px;
+	width:300px;
+	height:250px;
 	float:left;
 	list-style:none;
-	margin:20px;
+	margin:20px 10px;
+	display:inline;/*ie6解决方案*/
+
 }
 /*#content ol li img{
 	width:280px;
 	height:210px;
 }*/
-/*#container { width: 600px; height: 400px; border: 3px solid #333; overflow: hidden; position: relative;}*/
+/*#container {
+ width: 600px;
+  height: 400px;
+   border: 3px solid #333;
+    overflow: hidden; 
+    position: relative;
+}*/
 #list {
 	width:1960px;
 	height:230px;
@@ -46,11 +57,12 @@
 }
 #list img {
 	float: left;
+	width:300px;
 }
 #buttons{
 	position: absolute;
-	height: 10px;
-	width: 100px;
+	height: 20px;
+	width: 150px;
 	z-index: 2;
 	bottom: 20px;
 	left: 100px;
@@ -59,11 +71,13 @@
 	cursor: pointer; 
 	float: left; 
 	border: 1px solid #fff; 
-	width: 10px; 
-	height: 10px;
-	border-radius: 50%;
-	background: #333;
+	width: 20px; 
+	height: 20px;
+	background: white;
+	color:black;
 	margin-right: 5px;
+	text-align:center;
+	opacity:0.5;
 	}
 #buttons .on {  
 	background: orangered;
@@ -76,13 +90,13 @@
 }
 
 #content .box{
-	width:280px;
-	height:230px;
+	width:300px;
+	height:260px;
 	position:relative;
 	overflow:hidden;
 }
 .title{
-	width:940px;
+	width:300px;
 	height:auto;
 	overflow:hidden;
 	margin-bottom:20px;
@@ -91,6 +105,7 @@
 	color:red;
 	font-size:22px;
 	float:left;
+	font-weight:700;
 }
 .title .line{
 	width:55%;
@@ -101,18 +116,26 @@
 	text-align: right;
 	float:right; 
 }
+.detail{
+	width:300px;
+	height:260px;
+}
 #content ul li{
 	font-size:12px;
 	line-height:17px;
 	width:280px;
 	height:auto;
 	margin:0;
-	list-style-type:disc;
-	margin-left:15px;
 }
 #content ul li a{
+	width:280px;
+	height:auto;
 	text-decoration:none;
 	color:black;
+	/*background:url(../images/point.png)no-repeat -10px center;/*用图片解决ie6*/
+}
+#content ul span{
+	font-weight:700;
 }
 #footer{
 	width:980px;
@@ -124,32 +147,24 @@
 	overflow:hidden;
 } 
 #footer ol li{
-	width:220px;
+	width:200px;
 	height:auto;
-	margin:12px;
+	margin:10px;
 	list-style: none;
 	float:left;
 }
 #footer ol li img{
-	width:210px;
-	height:160px;
-}
-#link-m{
 	width:200px;
-	height:200px;
-	position:fixed;
-	margin:0 auto;
-	top:300px;
-	right:0px;
-}
-#link-m img{
-	width:180px;
-	height:180px;
+	height:160px;
 }
 #low{
 	width: 700px;
 	margin: 0 auto;
-	margin-top: 320px;
 	text-align: center;
 
+}
+#low p{
+	margin:20px 0; 
+	font-size:14px;
+	color:gray;
 }
