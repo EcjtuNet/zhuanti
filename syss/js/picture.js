@@ -1,5 +1,5 @@
         window.onload = function () {
-            var container = document.getElementById('box');
+            var container = document.getElementById('picture');
             var list = document.getElementById('list');
             var buttons = document.getElementById('buttons').getElementsByTagName('span');
             //  var prev = document.getElementById('prev');
@@ -16,7 +16,7 @@
                     return;
                 }
                 animated = true;
-                var time =300;
+                var time =342;
                 var inteval = 10;
                 var speed = offset/(time/inteval);
                 var left = parseInt(list.style.left) + offset;
@@ -29,10 +29,10 @@
                     else {
                         list.style.left = left + 'px';
                         if(left>-100){
-                            list.style.left = -300 * len + 'px';
+                            list.style.left = -342* len + 'px';
                         }
-                        if(left<(-300 * len)) {
-                            list.style.left = '-300px';
+                        if(left<(-342 * len)) {
+                            list.style.left = '-342px';
                         }
                         animated = false;
                     }
@@ -70,7 +70,7 @@
                 else {
                     index += 1;
                 }
-                animate(-300);
+                animate(-342);
                 showButton();
             }
             prev.onclick = function () {
@@ -83,7 +83,7 @@
                 else {
                     index -= 1;
                 }
-                animate(300);
+                animate(342);
                 showButton();
             }
 
@@ -96,7 +96,7 @@
                         return;
                     }
                     var myIndex = parseInt(this.getAttribute('index'));
-                    var offset = -300 * (myIndex - index);
+                    var offset = -342 * (myIndex - index);
 
                     animate(offset);
                     index = myIndex;
