@@ -83,8 +83,13 @@ html,body{
 	*margin-top: -20px;
 }
 #mid .box .detail{
-	width:100%;
+	width: 100%;
 	height:185px;
+	position: relative;
+	zoom: 1;
+}
+#mid .box .detail .flex-viewport {
+	width: 930px;
 }
 #mid .box .detail ul li{
 	width:292px;

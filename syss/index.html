@@ -6,7 +6,19 @@
 <link rel="stylesheet" type="text/css" href="./css/main.css">
 	<title>华东交通大学"三严三实"教育活动专题</title>
 	<link rel="shortcut icon" href="http://www.ecjtu.jx.cn/page/main6//ecjtu_logo.ico" />
-
+	<link rel="stylesheet" href="./flexslider.css">
+	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.detail').flexslider({
+				animation: "slide",
+				// animationLoop: false,
+				itemWidth: 203,
+				itemMargin: 0,
+			});
+		});
+	</script>
 </head>
 <body>
 	<div id="main">
@@ -104,7 +116,7 @@
 						<li><a href="http://news.eastday.com/eastday/13news/auto/news/china/u7ai3815341_K4.html"> <span>&middot;</span> 中共中央办公厅印发三严三实教育方案</a></li>
 						<li><a href="http://www.gov.cn/xinwen/2015-05/19/content_2864471.htm"> <span>&middot;</span> 江西省印发开展“三严三实”专题教育《实施方案》</a></li>
 						<li><a href="http://www.v86.org/news/show.php?itemid=46137"> <span>&middot;</span> 教育部直属机关印发“三严三实”专题教育实施方案</a></li>
-						<li><a href="http://www.ecjtu.net/upimg/soft/150613/1618_1951269581.doc"> <span>&middot;</span> 关于印发《关于在全校处级以上领导干部中开展“三严三实”专题教育实施方案》的通知</a></li>
+						<li><a href="http://www.ecjtu.net/upimg/soft/150613/1618_1951269581.doc"> <span>&middot;</span>关于印发《关于在全校处级以上领导干部中开展“三严三实”专题教育实施方案》的通知</a></li>
 						<li><a href="http://www.ecjtu.net/upimg/soft/150609/1618_1328046001.docx"> <span>&middot;</span> 关于做好省属高校“三严三实”专题教育工作的通知</a></li>
 					</ul>
 				</div>
@@ -166,11 +178,13 @@
 				</div>
 			</div>
 			<div class="detail">
-				<ul>
+				<ul class="slides">
 					<li><img src="./images/1.jpg"></li>
 					<li><img src="./images/4.jpg"></li>
 					<li><img src="./images/3.jpg"></li>
 					<li><img src="./images/2.jpg"></li>
+					<li><img src="./images/3.jpg" alt=""></li>
+					<li><img src="./images/2.jpg" alt=""></li>
 				</ul>
 			</div>
 		</div>
