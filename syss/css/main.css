@@ -86,12 +86,12 @@ html,body{
 	width: 100%;
 	height:185px;
 	position: relative;
-	zoom: 1;
 }
 #mid .box .detail .flex-viewport {
 	width: 930px;
 }
 #mid .box .detail ul li{
+	float: left;
 	width:292px;
 	height:15px;
 	line-height:15px;
@@ -195,18 +195,18 @@ html,body{
 	margin-top:24px;
 }
 #footer .detail ul{
-	margin-left:31px;
+	
 }
 #footer .detail ul li{
-	width:21.6%;
-	height:126px;
-	float:left;
-	list-style:none;
-	margin-right:30px;
+	width: 210px;
+	height: 126px;
+	float: left;
+	list-style: none;
+	text-align: center;
 }
 #footer .detail ul li img{
-	width:100%;
-	height:126px;
+	width: 210px;
+	height: 126px;
 }
 #low p{
 	border-top: 1px solid #c40403;

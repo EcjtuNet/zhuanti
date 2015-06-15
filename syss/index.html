@@ -1,24 +1,39 @@
 <!DOCTYPE HTML>
 <html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<script type="text/javascript" src="./js/picture.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<script type="text/javascript" src="./js/picture.js"></script>
+	
 	<title>华东交通大学"三严三实"教育活动专题</title>
 	<link rel="shortcut icon" href="http://www.ecjtu.jx.cn/page/main6//ecjtu_logo.ico" />
 	<link rel="stylesheet" href="./flexslider.css">
-	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+	<script src="./js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="./js/unslider.min.js"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
-			$('.detail').flexslider({
+			$('#footer_show').flexslider({
 				animation: "slide",
 				// animationLoop: false,
-				itemWidth: 203,
+				// direction: vertical,
+				slideshow: true,
+				slideshowSpeed: 3000,
+				animationSpeed: 1000,
+				controlNav: false,
+				directionNav: true,
+				itemWidth: 240,
 				itemMargin: 0,
+				minItems: 0,
+				maxItems: 6,
+				move: 6,
 			});
 		});
+		// $(function() {
+		//     var slidey = $('#footer_show').unslider();
+		//     $('#footer_show ul li').css('width', '205px');
+		// });
 	</script>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
 	<div id="main">
@@ -177,14 +192,14 @@
 				<div class="line">
 				</div>
 			</div>
-			<div class="detail">
+			<div class="detail" id="footer_show">
 				<ul class="slides">
 					<li><img src="./images/1.jpg"></li>
 					<li><img src="./images/4.jpg"></li>
 					<li><img src="./images/3.jpg"></li>
 					<li><img src="./images/2.jpg"></li>
-					<li><img src="./images/3.jpg" alt=""></li>
-					<li><img src="./images/2.jpg" alt=""></li>
+					<li><img src="./images/5.jpg"></li>
+					<li><img src="./images/6.jpg"></li>
 				</ul>
 			</div>
 		</div>
