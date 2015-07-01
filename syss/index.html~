@@ -1,12 +1,39 @@
 <!DOCTYPE HTML>
 <html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<script type="text/javascript" src="./js/picture.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<script type="text/javascript" src="./js/picture.js"></script>
+	
 	<title>华东交通大学"三严三实"教育活动专题</title>
 	<link rel="shortcut icon" href="http://www.ecjtu.jx.cn/page/main6//ecjtu_logo.ico" />
-
+	<link rel="stylesheet" href="./flexslider.css">
+	<script src="./js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="./js/unslider.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#footer_show').flexslider({
+				animation: "slide",
+				// animationLoop: false,
+				// direction: vertical,
+				slideshow: true,
+				slideshowSpeed: 3000,
+				animationSpeed: 1000,
+				controlNav: false,
+				directionNav: true,
+				itemWidth: 240,
+				itemMargin: 0,
+				minItems: 0,
+				maxItems: 6,
+				move: 6,
+			});
+		});
+		// $(function() {
+		//     var slidey = $('#footer_show').unslider();
+		//     $('#footer_show ul li').css('width', '205px');
+		// });
+	</script>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
 	<div id="main">
@@ -83,9 +110,10 @@
 				<div class="detail">
 					<ul>
 						<li><a href="http://www.ecjtu.jx.cn/s/30/t/6/8d/a5/info36261.htm"><span>&middot;</span>我校部署在领导干部中开展“三严三实”专题教育工作</a></li>
-						<li><a href="http://djszw.nit.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=13941&wbtreeid=1057"><span>&middot;</span>我校召开“三严三实”专题教育动员部署暨党课报告会</a></li>
 						<li><a href="http://create.maka.im/k/GP4AEDPW?from=groupmessage&isappinstalled=0"><span>&middot;</span>万明书记上“三严三实”专题党课</a></li>
 						<li><a href="http://xw.ecjtu.jx.cn/s/25/t/3/8f/56/info36694.htm"> <span>&middot;</span>全校“三严三实”专题教育正式启动   校党委书记万明做专题党课报告</a></li>
+						<li><a href="http://xw.ecjtu.jx.cn/s/25/t/3/8f/5d/info36701.htm"> <span>&middot;</span>“四个提升”打造高水平的宣传思想和学工队伍</a></li>
+						<li><a href="http://xw.ecjtu.jx.cn/s/25/t/3/8f/65/info36709.htm"> <span>&middot;</span>学校启动2015年综治维稳干部培训工作</a></li>
 					</ul>
 				</div>
 			</div>
@@ -101,8 +129,7 @@
 					<ul>
 						<li><a href="http://news.eastday.com/eastday/13news/auto/news/china/u7ai3815341_K4.html"> <span>&middot;</span> 中共中央办公厅印发三严三实教育方案</a></li>
 						<li><a href="http://www.gov.cn/xinwen/2015-05/19/content_2864471.htm"> <span>&middot;</span> 江西省印发开展“三严三实”专题教育《实施方案》</a></li>
-						<li><a href="http://www.v86.org/news/show.php?itemid=46137"> <span>&middot;</span> 教育部直属机关印发“三严三实”专题教育实施方案</a></li>
-						<li><a href="http://www.ecjtu.net/upimg/soft/150613/1618_1951269581.doc"> <span>&middot;</span> 关于印发《关于在华东交大全校处级以上领导干部中开展“三严三实”专题教育实施方案》的通知</a></li>
+						<li><a href="http://www.ecjtu.net/upimg/soft/150613/1618_1951269581.doc"> <span>&middot;</span>关于印发《关于在全校处级以上领导干部中开展“三严三实”专题教育实施方案》的通知</a></li>
 						<li><a href="http://www.ecjtu.net/upimg/soft/150609/1618_1328046001.docx"> <span>&middot;</span> 关于做好省属高校“三严三实”专题教育工作的通知</a></li>
 					</ul>
 				</div>
@@ -120,14 +147,13 @@
 						<li><a href="http://www.ecjtu.net/html/news/rixinfangtan/20150518/33867.html
 						"> <span>&middot;</span> 欧阳自立：带着母亲上学的“女强人”</a></li>
 						<li><a href=" http://weibo.com/p/1001603823636552224718"> <span>&middot;</span> 张海龙：我的大学不迷茫</a></li>
-						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140905/32439.html
-						"> <span>&middot;</span> 乐观鲁甸孩子潘垚：失去后才更懂珍惜</a></li>
+						<li><a href=" http://ddh5.ecjtu.edu.cn/picture/article/75/1b/7a/72f7d97a4236a7bab50f61d4e385/08751eb4-8b23-4e76-aeae-9ddff7c77222.pdf"> <span>&middot;</span> 最美共产党员先进事迹展示</a></li>
 						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140726/32272.html"> <span>&middot;</span> 曹立勇：脚踏实地 勇于挑战 成就未来</a></li>
 						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140813/32319.html"> <span>&middot;</span> 殷君：做一棵向阳的常青树</a></li>
 						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140905/32430.html"> <span>&middot;</span> 预科班毛南族女生圆梦交大：新媒体社交下的“老生”</a></li>
 						<li><a href=" http://www.ecjtu.net/plus/view.php?aid=32287"> <span>&middot;</span> 刘新：成长在交大 奉献在基层</a></li>
-						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140730/32277.html"> <span>&middot;</span> 王占盛：日新其学 永无止境</a></li>
 						<li><a href=" http://www.ecjtu.net/html/news/rixinfangtan/20140702/32175.html"> <span>&middot;</span> 胡欣诚：坚定信仰 搭乘着梦想的翅膀飞翔</a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -141,10 +167,10 @@
 				</div>
 				<div class="detail">
 					<ul>
-						<li><a href=" http://xuexi.12371.cn/special/syss/index.shtml"> <span>&middot;</span> 学习践行“三严三实”先进典型</a></li>
-						<li><a href=" http://www.chinadaily.com.cn/hqgj/jryw/2014-03-19/content_11430733.html"> <span>&middot;</span> 虞爱华：践行“三严三实” 做到立行立改</a></li>
-						<li><a href=" http://www.qfeng.org/Item/Show.asp?d=2685&m=1"> <span>&middot;</span> 吴强忠:用生命践行“三严三实”</a></li>
-						<li><a href=" http://theory.people.com.cn/n/2015/0603/c168825-27099557.html"> <span>&middot;</span> 慎海雄：“三严三实”是党员领导干部永远的必修课</a></li>
+						<li><a href=" http://xuexi.12371.cn/special/syss/index.shtml"> <span>&middot;</span> 学习践行“三严三实”先进典型</a></li>v
+						<li><a href=" http://www.ecjtu.net/html/news/rixinyanlun/20150331/33641.html"> <span>&middot;</span> 别样花椒：行走在创业路上的逐梦者</a></li>
+						<li><a href=" http://xw.ecjtu.jx.cn/s/25/t/3/8c/72/info35954.htm"> <span>&middot;</span> 【文件解读】《中长期发展规划》</a></li>
+						<li><a href=" http://www.ecjtu.jx.cn/s/30/t/6/90/5c/info36956.htm"> <span>&middot;</span> “一媒一品两中心” 打造十足交大范儿</a></li> 	
 						
 					</ul>
 				</div>
@@ -160,12 +186,14 @@
 				<div class="line">
 				</div>
 			</div>
-			<div class="detail">
-				<ul>
+			<div class="detail" id="footer_show">
+				<ul class="slides">
 					<li><img src="./images/1.jpg"></li>
 					<li><img src="./images/4.jpg"></li>
 					<li><img src="./images/3.jpg"></li>
 					<li><img src="./images/2.jpg"></li>
+					<li><img src="./images/5.jpg"></li>
+					<li><img src="./images/6.jpg"></li>
 				</ul>
 			</div>
 		</div>
