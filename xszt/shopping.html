@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>2014新生专题</title>
+	<link rel="shortcut icon" href="" />
+	<link rel="stylesheet" type="text/css" href="http://developer.amap.com/Public/css/demo.Default.css" />
+	<script src="http://webapi.amap.com/maps?v=1.3&key=cc9c6fa36fa7497f12f39830a4b1f885"></script>
+	<script type="text/javascript" src="./scripts/query.js"></script>
+	<link rel="stylesheet" href="./css/shopping-style.css" />
+	<script type="text/javascript" src="./scripts/jquery.js"></script>
+	<script type="text/javascript" src="./scripts/head.js"></script>
+	<script type="text/javascript" src="./scripts/scroll-to-top.js"></script>
+</head>
+<body onload="mapInit();">
+	<div id="container">
+		<div id="content">
+			<div id="map">
+				<h2>学校周边 >> 搜索周边地点</h2>
+				<div id="iCenter"></div>
+				<div class="iCenter_box">
+				    <p>
+				    	<input id="keyword" type="textbox" value="">
+				    	<input type="button" value="查询" onclick="placeSearch();"/>
+				    </p>
+				    <div id="r_title"><b>查询结果:</b></div>
+				    <div id="result"> </div>
+				</div>
+			</div>
+			<div id="shop">
+				<h2>购物指南 >> 交大乐活宝典</h2>
+				<ul>
+					<li>
+						[ 购物 ]<br />
+						学校外面有交大购物广场，还有强宇百货、全家百货，一般的生活用品以及零食都可以在这些地方购买，想挑选更多更好的物品的话还可以去市区。
+					</li>
+					<li>
+						[ 跳蚤市场 ]<br />
+						这是一个在日新论坛（<a href="http://bbs.ecjtu.net/">http://bbs.ecjtu.net/</a>）里覆盖交大师生的二手市场，在这里，你可以低价购买到自己心仪的二手物品，也能出售自己不需要的旧物。
+					</li>
+					<li>
+						[ 快递 ]<br />
+						申通、韵达：北区超市后住宅区内 & 宅17栋<br />
+						汇通：16栋人文机房<br />
+						顺丰：阿猫阿狗咖啡屋旁<br />
+						中通、圆通、天天：南区宅25（地下通道口处）<br />
+						全峰：学14栋超市处<br />
+						邮政：教7对面收发室 & 南区侧门旁边<br />
+						EMS：南区侧门旁边<br />
+						另外，京东、当当、亚马逊、急宅送、聚美优品的快递员则会短信通知大家去南北区门口取件<br />
+						PS：北区的孩纸记得在收货地址上加上北区，否则快递会被送到南区，取件要跑好远哦~
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header id="header">
+		<div class="more">
+			···
+			<ul>
+				<li><a class="check" href="check-in.html">报道须知</a></li>
+				<li><a href="http://bbs.ecjtu.net/thread-433310-1-1.html" class="morePic">更多图片</a></li>
+			</ul>
+		</div>
+		<div id="head-content">
+			<nav id="nav">
+				<a id="logo" href="http://www.ecjtu.net/"></a>
+				<ul>
+					<li><a class="shopping" href="shopping.html">衣</a></li>
+					<li><a class="food" href="food.html">食</a></li>
+					<li><a class="home" href="home.html">住</a></li>
+					<li><a class="travel" href="travel.html">行</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<footer id="footer">
+		<p>华东交通大学团委、学工处 [ 版权所有 <a href="http://www.ecjtu.net/">交大日新</a>] 赣ICP备05003322号 <a href="http://www.ecjtu.net/">日新工作室</a> 维护</p>
+		<p>Copyright 2001-2014 By [<a href="http://www.ecjtu.net/">Ecjtu.net</a>].All Rights Reserved</p>
+	</footer>
+	<a class="scroll" href=""></a>
+</body>
+</html>

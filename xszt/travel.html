@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>2014新生专题</title>
+	<link rel="shortcut icon" href="" />
+	<link rel="stylesheet" type="text/css" href="http://developer.amap.com/Public/css/demo.Default.css" />
+	<link rel="stylesheet" href="./css/travel-style.css" />
+	<script type="text/javascript" src="./scripts/jquery.js"></script>
+	<script type="text/javascript" src="./scripts/head.js"></script>
+	<script type="text/javascript" src="./scripts/scroll-to-top.js"></script>
+</head>
+<body onload="init();">
+	<div id="container">
+		<div id="content">
+			<div id="bus">
+				<h2>公交线路 >> 出行私人助理</h2>
+				<div id="l-map"></div>
+				<p>
+				    <span>起点</span><input id="sar" type="textbox" value="" name="起点">
+				    <span>终点</span><input id="end" type="textbox" value="" name="终点">
+				    <input type="button" value="搜索" onclick="searchKeyword()">
+				</p>
+				<div id="r-result"></div>
+			</div>
+			<div id="street">
+				<h2>街景地图 >> 轻松游遍交大</h2>
+				<div id="street-map">
+					<div style="width:603px;height:300px" id="pano_holder"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header id="header">
+		<div id="head-content">
+			<div class="more">
+				···
+				<ul>
+					<li><a class="check" href="check-in.html">报道须知</a></li>
+					<li><a href="http://bbs.ecjtu.net/thread-433310-1-1.html" class="morePic">更多图片</a></li>
+				</ul>
+			</div>
+			<nav id="nav">
+				<a id="logo" href="http://www.ecjtu.net/"></a>
+				<ul>
+					<li><a class="shopping" href="shopping.html">衣</a></li>
+					<li><a class="food" href="food.html">食</a></li>
+					<li><a class="home" href="home.html">住</a></li>
+					<li><a class="travel" href="travel.html">行</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<footer id="footer">
+		<p>华东交通大学团委、学工处 [ 版权所有 <a href="http://www.ecjtu.net/">交大日新</a>] 赣ICP备05003322号 <a href="http://www.ecjtu.net/">日新工作室</a> 维护</p>
+		<p>Copyright 2001-2014 By [<a href="http://www.ecjtu.net/">Ecjtu.net</a>].All Rights Reserved</p>
+	</footer>
+	<a class="scroll" href=""></a>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3861f4b24bbc8e0331bcad56dfb8ecfe"></script>
+	<script type="text/javascript" src="./scripts/bus.js"></script>
+	<script src="http://map.qq.com/api/js?v=2.exp&key=7OSBZ-57ZA3-XNO33-3ATDE-QGH3O-37FKU"></script>
+	<script type="text/javascript" src="./scripts/street.js"></script>
+</body>
+</html>
