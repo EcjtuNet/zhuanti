@@ -1,0 +1,112 @@
+  
+/****************首页**/
+.in_bg{ background-image:url(/images/ljzl_banner_bg.png); background-repeat:no-repeat; background-position: center 28px; background-color: #fffbe5;}
+ 
+header .header_warp { margin:0 auto; max-width: 1000px; text-align:center; margin-top: 28px; min-height:333px;background-image:url(../images/banner_logo.png);background-repeat:no-repeat;background-size:cover;}
+
+/*header .header_warp .logo1{ float: left; padding-top: 110px; }
+header .header_warp .right{ float: right; padding-top: 90px; width: 560px; min-height: 80px;}
+header .header_warp .logo2{ padding-top: 10px; background: url(ljzl_banner_logobg.png) no-repeat center top; min-height: 80px; }
+header .header_warp .logo3{ padding-top: 10px; min-height: 80px;}*/
+ 
+.main{ max-width:1000px; margin:0 auto; background: #ffffff; padding-top: 20px; }
+.main .main_left1{ float:left; width: 605px; }
+.main .main_right1{ float:right; width: 360px; }
+.main .main_left2{ float:left; width: 50%; margin-top: 20px; }
+.main .main_right2{ float:right; width: 50%; margin-top: 20px; }
+
+.bk_02{ margin: 10px; }
+
+/**图片新闻*/
+.banner_0{min-height: 325px;  position:relative; z-index:100; }
+.banner_0_top{ min-height:325px; background:#fff;}
+.banner_0_top li{ position:absolute; left:0; top:0; width:100%;  text-align:center;}
+.banner_0_top li img{ position:relative; width: 523px; height: 325px;}
+
+.banner_0_top li .p{ background:#FFF; min-height:50px; padding:5px 0; line-height:1.5; border-bottom-left-radius:4px; border-bottom-right-radius:4px; text-align:left;}
+.banner_0_top li .p a{ display:inline-block; padding:0 10px;text-indent: 30px;}
+
+.banner_0_bottom { position:absolute; bottom:30px; width:100%; left:0; text-align:center; z-index:20;}
+.banner_0_bottom span{ background:url(../images/ljzl_n_html55.png) left top no-repeat; width: 22px; height: 22px; display:inline-block; cursor:pointer;  margin:0 5px;}
+.banner_0_bottom span.on{ background:url(../images/ljzl_n_html55.png) right top no-repeat;}
+.banner_0 .next{ background:url(../images/in_bon_01.png) no-repeat; width:19px; height:34px; position:absolute; left:10px; top:35%; opacity:0.7; cursor:pointer; z-index:20;}
+.banner_0 .por{ background:url(../images/in_bon_03.png) no-repeat; width:19px; height:34px; position:absolute; right:10px; top:35%; opacity:0.7; cursor:pointer; z-index:20;}
+.banner_0 .next:hover{ background:url(../images/in_bon_02.png) no-repeat; width:19px; height:34px; position:absolute; left:10px; top:35%; /*opacity:0.7;*/ cursor:pointer; z-index:20;}
+.banner_0 .por:hover{ background:url(../images/in_bon_04.png) no-repeat; width:19px; height:34px; position:absolute;  right:10px; top:35%; /*opacity:0.7;*/ cursor:pointer; z-index:20;}
+
+/**要闻*/ 
+.bk_02 .yw dl { position: relative; min-height: 325px;}
+.bk_02 .yw dl dt{ text-align: left;vertical-align:top; line-height: 40px; }
+.bk_02 .yw dl dt h4{ color: #131720; font-size: 30px; font-family: "黑体"; font-weight: bold}
+.bk_02 .yw dd.p{ line-height: 30px; font-size: 20px; margin-top: 10px; }
+.bk_02 .yw dd.p a i{ float:left; width: 13px; height: 13px; display:inline; background:url(../images/ljzl_icon_1.png) no-repeat; margin: 8px 10px 0 0; *margin-top: 9px; *margin-right: 10px; }
+.bk_02 .yw dd.p a{ color: #22272B;}
+
+.bk_02 .yw dl a.more{ float:right; position: absolute; bottom: 5px; right: 10px; color: #d4934c; font-size: 16px; white-space: nowrap;} 
+.bk_02 .yw dl a.more:hover{ color:#941e23;}
+
+
+.banner_link1 { float: left; margin-left: 20px; margin-top: 10px; min-height: 139px; }
+.banner_link2 { float: right; margin-right: 20px; margin-top: 10px; min-height: 139px; }
+
+
+.bk_01{ font-size: 14px; margin-top: 0px; }
+
+
+.center{ margin: auto; position: relative; background: url(../images/ljzl_line.png) no-repeat center bottom; min-height: 500px; margin-top: 30px; }
+
+.widget1{ margin-top: 10px; margin-left: 20px; margin-right: 20px; }
+/**聚焦*/
+.bk_01 .tit1{ margin: auto; min-height: 54px; position: relative; }
+.bk_01 .tit1 .channllogo{ float: left; width: 174px; height: 54px; background:url(../images/ljzl_logo_bg.png) no-repeat top; text-align: center; }
+.bk_01 .tit1 .channllogo img{ margin-top: 15px; }
+.bk_01 .tit1 .more{ float:right; position: absolute; top: 15px; right: 10px; color: #d4934c; font-size: 16px; white-space: nowrap;} 
+.bk_01 .tit1 .more:hover{ color:#941e23;}
+
+ 
+
+.widget_list ul{ padding-top: 20px; }
+.widget_list ul li{ height: 42px; vertical-align:top; }
+.widget_list ul li a{ float:left; color: #131313; font-size: 18px; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; }
+.widget_list ul li a:hover{ color:#941e23;}
+.widget_list ul li a i{ float:left; width: 12px; height: 11px; display:inline; background:url(../imagesljzl_icon_1.png) no-repeat; margin: 5px 10px 0 0; *margin-top:6px; *margin-right: 10px; }
+.widget_list ul li span{color:#131313; font-size: 14px; float:right;}
+ 
+ 
+.widget_list2{  padding-top: 20px; }
+.widget_list2 dl{ position: relative; }
+.widget_list2 dl dt { width: 252px; height: 147px; position: absolute; left: 0px; top: 0px;}
+.widget_list2 dl dt img{ width: 252px; height: 125px; }
+.widget_list2 dl dd { float: left; padding-left: 260px; min-height: 160px; }
+.widget_list2 dl dd ul{ padding: 0px 10px; }
+.widget_list2 dl dd ul li{ float: left; text-align: left; vertical-align: top; height: 35px; color: #131313; font-size: 16px; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; }
+.widget_list2 dl dd ul li a{ color: #131313; }
+.widget_list2 dl dd ul li a:hover{ color:#941e23;} 
+
+
+
+.center2 { margin: auto; background: url(../images/ljzl_xxgc_bg.png) no-repeat center top; width: 970px; margin-top: 30px; min-height: 220px; }
+.bk_01 .tit2{ margin: auto; position: relative; min-height: 33px; position: relative; text-align: center; margin-top: 30px; } 
+.bk_01 .tit2 .more{ float:right; position: absolute; top: 5px; right: 10px; color:#d4934c; font-size: 16px; white-space: nowrap;} 
+.bk_01 .tit2 .more:hover{ color:#941e23;}
+
+.widget_list3 { float: left; width: 50%; margin-top: 20px; }
+.widget_list3 ul{ padding: 20px 10px; }
+.widget_list3 ul li{ height: 40px; vertical-align:top; }
+.widget_list3 ul li a{ float:left; color: #000000; font-size: 20px; white-space: nowrap; overflow:hidden; text-overflow:ellipsis; }
+.widget_list3 ul li a:hover{ color:#941e23;}
+.widget_list3 ul li a i{ float:left; width: 12px; height: 11px; display:inline; background:url(../images/ljzl_icon_1.png) no-repeat; margin: 5px 10px 0 0; *margin-top: 6px; *margin-right: 10px; }
+.widget_list3 ul li span{color:#555656; font-size: 14px; float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
