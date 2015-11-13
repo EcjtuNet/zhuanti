@@ -1,6 +1,6 @@
 #change_img { width: 994px; height: 200px; border: 3px solid #333; overflow: hidden; position: relative;}
 #list { width: 4200px; height: 400px; position: absolute; z-index: 1;}
-#list img { width:300px;height:200px;float: left;}
+#list img { width:300px;height:200px;float: left;margin:0 7px;}
 #buttons { position: absolute; height: 10px; width: 200px; z-index: 2; bottom: 10px; left: 470px;}
  #buttons span { cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%; background: #333; margin-right: 5px;}
 #buttons .on {  background: orangered;}

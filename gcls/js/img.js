@@ -16,7 +16,7 @@
                     return;
                 }
                 animated = true;
-                var time = 300;
+                var time = 314;
                 var inteval = 10;
                 var speed = offset/(time/inteval);
                 var left = parseInt(list.style.left) + offset;
@@ -28,11 +28,11 @@
                     }
                     else {
                         list.style.left = left + 'px';
-                        if(left>-200){
-                            list.style.left = -300 * len + 'px';
+                        if(left>-100){
+                            list.style.left = -314 * len + 'px';
                         }
-                        if(left<(-300 * len)) {
-                            list.style.left = '-300px';
+                        if(left<(-314 * len)) {
+                            list.style.left = '-321px';
                         }
                         animated = false;
                     }
@@ -70,7 +70,7 @@
                 else {
                     index += 1;
                 }
-                animate(-300);
+                animate(-314);
                 showButton();
             }
             prev.onclick = function () {
@@ -83,7 +83,7 @@
                 else {
                     index -= 1;
                 }
-                animate(300);
+                animate(314);
                 showButton();
             }
 
@@ -96,7 +96,7 @@
                         return;
                     }
                     var myIndex = parseInt(this.getAttribute('index'));
-                    var offset = -300 * (myIndex - index);
+                    var offset = -314 * (myIndex - index);
 
                     animate(offset);
                     index = myIndex;
