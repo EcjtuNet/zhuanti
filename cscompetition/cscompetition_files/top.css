@@ -1,0 +1,12 @@
+.other_bg{ background: #F5F4EC;} 
+ 
+/*****概览页面header begin*****/ 
+
+.other_header .bgcolor{ margin: auto; background: #164FB6; }
+ 
+.other_header .top{ margin: auto; max-width: 940px; height: 28px; }
+.other_header .top_warp{ float: left; line-height: 28px; font-size: 14px;}
+.other_header .top_warp a{ font-family: "Microsoft Yahei"; color: #EEA15B; display: inline-block; padding:0 10px;} 
+ 
+.other_header .header_warp { margin: auto; text-align:center;}
+.other_header .header_warp2 { margin: auto; text-align:center; margin-top: 20px;}
